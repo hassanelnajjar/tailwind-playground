@@ -1,0 +1,24 @@
+{
+	"name": "tailwind-playground",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build-css": "npx tailwindcss-cli@latest build src/style.css -o style.css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hassanelnajjar/tailwind-playground.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/hassanelnajjar/tailwind-playground/issues"
+	},
+	"homepage": "https://github.com/hassanelnajjar/tailwind-playground#readme",
+	"dependencies": {
+		"tailwind": "^4.0.0"
+	}
+}
